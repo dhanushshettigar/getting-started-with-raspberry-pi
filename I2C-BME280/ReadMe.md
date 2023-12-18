@@ -14,6 +14,21 @@ Learn how to interface the BME280 sensor with the Raspberry Pi to get temperatur
 | `SCL` | `GPIO 3` |
 | `SDA` | `GPIO 2` |
 
+# Enabling I2C
+
+- **Open a terminal**. If you are using the Raspberry Pi Desktop you can open a terminal by pressing **CTRL+ALT+T** at the same to open a terminal. But if you are using headless mode, you can connect via SSH and go from there.
+- Open the raspi-config tool:
+
+```bash
+  sudo raspi-config
+```
+- Go to “Interface option” > “I2C”.
+- "Would you like the SPI interface to be enabled?" Yes!
+- Exit raspi-config and accept to reboot the device.
+
+That’s it. You have I2C enabled.
+
+
 # Getting the Sensor I2C Address
 
 With the sensor connected to the Raspberry Pi, let’s check if the sensor is connected properly by searching for its I2C address.
@@ -70,6 +85,7 @@ Therefore from Bookworm onwards, packages installed via pip must be installed in
 ## Breaking The System (Not Recommended But Works!!!)
 
 ```bash
+  # make sure you replace python version
   sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 ```
 
