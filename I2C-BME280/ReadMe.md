@@ -4,4 +4,4 @@ Learn how to interface the BME280 sensor with the Raspberry Pi to get temperatur
 
 # Wiring the BME280 to the Raspberry Pi
 
-![reference-randomnerdtutorials]
+![reference-randomnerdtutorials](https://raw.githubusercontent.com/dhanushshettigar/getting-started-with-raspberry-pi/main/images/BME280-PI.jpg)
