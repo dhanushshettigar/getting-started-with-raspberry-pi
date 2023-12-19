@@ -23,7 +23,7 @@ Learn how to interface the BME280 sensor with the Raspberry Pi to get temperatur
   sudo raspi-config
 ```
 - Go to “Interface option” > “I2C”.
-- "Would you like the SPI interface to be enabled?" Yes!
+- "Would you like the I2C interface to be enabled?" Yes!
 - Exit raspi-config and accept to reboot the device.
 
 That’s it. You have I2C enabled.
