@@ -86,7 +86,7 @@ Therefore from Bookworm onwards, packages installed via pip must be installed in
 
 ```bash
   # make sure you replace python version
-  sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
+  sudo rm -rf /usr/lib/python3.11/EXTERNALLY-MANAGED
 ```
 
 # Install BME280 Library
