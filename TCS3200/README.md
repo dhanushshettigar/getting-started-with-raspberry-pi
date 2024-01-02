@@ -1,6 +1,6 @@
 # Detect Color With Raspberry Pi Using GY31 - TCS3200
 
-## Wiring the RC522 to the Raspberry Pi
+## Wiring the TCS3200 to the Raspberry Pi
 
 ![reference-dhanush](https://raw.githubusercontent.com/dhanushshettigar/getting-started-with-raspberry-pi/main/images/RPi-TCS.png)
 
