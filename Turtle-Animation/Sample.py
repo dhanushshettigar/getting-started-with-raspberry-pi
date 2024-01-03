@@ -27,4 +27,4 @@ trtl.penup()
 trtl.setpos(-120,100)
 trtl.pendown()
 # clear screen
-trtl.clearscreen()
+turtle.clearscreen()
